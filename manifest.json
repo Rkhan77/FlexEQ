@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "flexeq.audio",
+  "name": "FlexEQ",
+  "version": "0.1.0",
+  "author": "FlexEQ contributors",
+  "license": "MIT",
+  "description": "A theme-aware audio control panel for Omarchy with backend and equalizer detection.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "FlexEQ",
+    "category": "Audio",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
